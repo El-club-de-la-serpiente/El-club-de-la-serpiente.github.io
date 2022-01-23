@@ -1,0 +1,21 @@
+---
+layout: default
+title: eventos
+---
+
+
+{{site.eventos}}
+{% for eventos in site.events %}
+
+    <a  href="{{ eventos.url }}" class="no-link-style">
+        <div class="post">
+            <div class="img">
+    
+            </div>
+            <div>
+                <h2>{{eventos.title | capitalize }}</h2>
+                <p>{{eventos.content | capitalize | strip_html | truncatewords: 50}}</p>
+            </div>
+        </div>
+    </a>
+{% endfor %}

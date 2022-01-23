@@ -1,0 +1,19 @@
+---
+layout: default
+title: blog
+---
+
+{% for post in site.posts %}
+
+    <a  href="{{ post.url }}" class="no-link-style">
+        <div class="post">
+            <div class="img">
+    
+            </div>
+            <div>
+                <h2>{{post.title | capitalize }}</h2>
+                <p>{{post.content | capitalize | strip_html | truncatewords: 50}}</p>
+            </div>
+        </div>
+    </a>
+{% endfor %}

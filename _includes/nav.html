@@ -1,0 +1,16 @@
+<nav>
+    <div id="nav-header">
+
+    </div>
+
+    <div id="nav-body" class="flex center center-both">
+        {% for item in site.data.navigation %}
+            <a
+                class="no-link-style {% if item.name == page.title %} active {% endif%}"
+                href="{{item.link}}" >
+
+                {{ item.name | capitalize}}
+            </a>
+        {% endfor %}
+    </div>
+</nav>

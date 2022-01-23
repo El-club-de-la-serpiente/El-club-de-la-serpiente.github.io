@@ -1,0 +1,15 @@
+nav {
+    padding: 10px 0px 10px 0px;
+
+    #nav-body {
+
+        a {
+            color: gray;
+
+            &.active {
+                color: black;
+                border-bottom: 1px solid black;
+            }
+        }
+    }
+}

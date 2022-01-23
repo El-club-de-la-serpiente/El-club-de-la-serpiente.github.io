@@ -1,0 +1,23 @@
+@import "util", "nav", "footer", "default";
+
+@import url('https://fonts.googleapis.com/css2?family=Cairo&family=Karla&display=swap');
+
+* {
+    font-family: 'Karla', sans-serif;
+    transition: 0.5s;
+    text-rendering: optimizelegibility;
+    scroll-behavior: smooth;
+}
+
+nav #nav-body a,
+footer #social-media a {
+    padding: 10px;
+    margin: 0px 10px 0px 0px;
+    display: inline-block;
+    border-radius: 5px 5px 0px 0px;
+
+    &:hover {
+        background-color: lightgray;
+        color: black;
+    }
+}

@@ -1,0 +1,13 @@
+---
+layout: base
+---
+{% include nav.html %}
+
+<main class="default">
+    <header class="center-text">
+        <h1>{{page.title | capitalize}}</h1>
+    </header>
+    {{ content }}
+</main>
+
+{% include footer.html %}

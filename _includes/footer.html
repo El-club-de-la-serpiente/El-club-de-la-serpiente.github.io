@@ -1,0 +1,15 @@
+<footer>
+    <div class="flex flex-col center center-both">
+        <div id="social-media">
+            {% for item in site.data.social_media %}
+                <a class="no-link-style" href="{{item.link}}">
+                    <span class="{{item.fontawesome}}"></span>
+                    <span>{{item.name | capitalize}}</span>
+                </a>
+            {% endfor %}
+        </div>
+        <div>
+            El Club de la serpiente © | 2022
+        </div>
+    </div>
+</footer>

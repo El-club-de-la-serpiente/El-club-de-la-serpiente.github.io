@@ -1,0 +1,13 @@
+footer {
+    .flex {
+        gap: 10px;
+
+        #social-media {
+            font-size: larger;
+
+            a {
+                border-bottom: 1px solid black;
+            }
+        }
+    }
+}

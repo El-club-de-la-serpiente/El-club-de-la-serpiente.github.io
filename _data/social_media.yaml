@@ -1,0 +1,15 @@
+- name: Youtube
+  link: https://www.youtube.com/channel/UCIgUaBcOBGmP3UzpUUrhhgg
+  fontawesome: fab fa-youtube
+- name: Twitch
+  link: https://www.twitch.tv/elclubdelaserpiente
+  fontawesome: fab fa-twitch
+- name: Instagram
+  link: https://www.instagram.com/elclub_dela_serpiente/
+  fontawesome: fab fa-instagram
+- name: Facebook
+  link: https://www.facebook.com/El-club-de-la-serpiente-104377318548927
+  fontawesome: fab fa-facebook-square
+- name: Twitter
+  link: https://twitter.com/Club_serpiente_
+  fontawesome: fab fa-twitter-square
